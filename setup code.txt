@@ -1,0 +1,15 @@
+sudo apt update
+sudo apt install python3-pip python3-venv git -y
+git clone https://github.com/momaliii/deeb_bot.git
+cd your-folder
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install matplotlib
+pip install python-telegram-bot
+pip install apscheduler
+python bot.py
+sudo apt install screen
+screen -S bot
+python bot.py
+Press Ctrl+A then D to detach and leave it running in the background.
